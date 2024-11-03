@@ -24,11 +24,11 @@ REQUIRED_PACKAGES = [
     'attrs',
     'chex',
     'h5py',
-    'folx @ git+https://github.com/microsoft/folx',
+    'folx @ git+ssh://git@github.com/microsoft/folx',
     'jax',
     'jaxlib',
     # TODO(b/230487443) - use released version of kfac.
-    'kfac_jax @ git+https://github.com/deepmind/kfac-jax',
+    'kfac_jax @ git+ssh://git@github.com/deepmind/kfac-jax',
     'ml-collections',
     'optax',
     'numpy',
